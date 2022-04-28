@@ -10,10 +10,8 @@ from phonenumbers import geocoder
 import os
 from colorama import Fore
 
-os.system("cls")
+os.system("clear")
 
-os.system("mode con: cols=100  lines=25")
-ctypes.windll.kernel32.SetConsoleTitleW("PHONE OSINT | LA RECALLIE")
 
 print(f"""
                   {Fore.GREEN}d ss.  d    d   sSSSs   d s  b d sss     sSSSs     sss. d d s  b sss sssss       
